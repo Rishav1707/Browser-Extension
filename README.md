@@ -43,7 +43,20 @@ Start the server
   npm run dev
 ```
 
-### Resources
+## Install the Extension
+
+When the build completes, open Chrome or Edge and navigate to `chrome://extensions`. Make sure to turn on the developer mode switch.
+<br>
+
+![image](https://user-images.githubusercontent.com/97666287/230595603-70d88ed5-c895-4acf-b710-b8e693471eeb.png)
+
+Drag your `dist` folder into the Extensions Dashboard to install it. Your extension icon will be in the top bar. The icon will be the first letter of the extension's name.
+
+![crxjs](https://crxjs.dev/vite-plugin/assets/images/start-context-menu-inspect-54cdc6d1667042c9738da816dc921cc3.png)
+
+And boom! Extension has been installed.
+
+## Resources
 
 - [api.opensauced.pizza](https://api.opensauced.pizza/)
 - [docs.opensauced.pizza](https://docs.opensauced.pizza/)
