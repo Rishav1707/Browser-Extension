@@ -22,3 +22,31 @@
 # Video
 
 https://user-images.githubusercontent.com/97666287/227717061-4696d078-476e-4e84-8cc9-3e2e718bdc41.mp4
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Your Username/Browser-Extension.git
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+### Resources
+
+- [api.opensauced.pizza](https://api.opensauced.pizza/)
+- [docs.opensauced.pizza](https://docs.opensauced.pizza/)
+- https://github.com/open-sauced/assets
+- [crxjs](https://crxjs.dev/) 
+- [vite](https://vitejs.dev/)
