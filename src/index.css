@@ -1,0 +1,18 @@
+#crx-root {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+#crx-root button {
+  width: 18.5rem;
+  background-color: #f87317;
+  color: white;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: rgba(240, 246, 252, 0.1);
+  box-shadow: 0 0 transparent, 0 0 transparent;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Open Sauced Chrome Extensions",
+  "description": "A browser extension, detects if GitHub user is signed up to OpenSauced",
+  "version": "1.0.1",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "icons": {
+    "128": "src/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["src/content.jsx"]
+    }
+  ]
+}

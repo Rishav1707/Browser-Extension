@@ -1,0 +1,111 @@
+/* Variables */
+:root {
+  --primary-color: #f87317;
+  --border-color: rgba(240, 246, 252, 0.1);
+  --primary-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Button */
+button {
+  width: 18.5rem;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 0 transparent, 0 0 transparent;
+  margin-bottom: 1rem;
+}
+
+/* Open Sauced logo */
+.logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ext section */
+.ext {
+  width: 20.5rem;
+  height: 29rem;
+  padding: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 5px black;
+}
+
+/* Heading */
+h2 {
+  font-family: var(--primary-font-family);
+  text-align: center;
+}
+
+/* Paragraph */
+p {
+  font-size: 14px;
+  font-family: var(--primary-font-family);
+}
+
+/* Bold */
+b {
+  color: black;
+}
+
+/* Button small */
+.butt {
+  width: 7.24rem;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: var(--primary-font-family);
+  box-shadow: 0 0 5px black;
+}
+
+/* login text */
+.login {
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* label */
+.wrapper label {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--primary-font-family);
+}
+
+/* input text */
+.text {
+  margin: 5px 0;
+  padding: 8px 10px;
+  min-width: 230px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+/* input text on focus */
+.text:focus {
+  font-family: var(--primary-font-family);
+}
+
+/* button div */
+.auth-butt-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* authorize button */
+.authorize-button {
+  width: 8rem;
+  background: #fff;
+  color: #49cc90;
+  border: 1px solid #49cc90;
+  box-shadow: 0 0 5px #49cc90;
+  font-weight: 700;
+  cursor: pointer;
+}
